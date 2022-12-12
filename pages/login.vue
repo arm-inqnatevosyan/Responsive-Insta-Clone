@@ -1,29 +1,34 @@
-<!-- Arandz beqendi fronti logini ej -->
+<!--Arandz beqendi fronti loginiej -->
 <template>
   <div>
     <Navbar />
-    <form action="/action_page.php">
+    <form>
       <h1>Instagram</h1>
       <input type="text" placeholder="Phone number"><br>
       <input type="text" placeholder="Name and Lastname"><br>
       <input type="text" placeholder="Name User"><br>
       <input type="text" placeholder="Password">
       <p>
-        Люди, которые пользуются нашим сервисом,<br> могли загрузить вашу контактную информацию в Instagram. Подробнее<br><br>
-        Регистрируясь, вы принимаете наши Условия, <br>Политику конфиденциальности и Политику в <br>отношении файлов cookie.
-      </p>
+        Люди, которые пользуются нашим сервисом,
+      </p><p> могли загрузить вашу контактную информацию в Instagram. Подробнее</p>
+      <p>Регистрируясь, вы принимаете наши Условия,</p> <p>Политику конфиденциальности и Политику в</p> <p>отношении файлов cookie.</p>
       <input type="submit" placeholder="Registration" class="submit">
     </form>
   </div>
 </template>
 <script>
+import Navbar from '~/components/Navbar.vue'
 
+export default {
+  components: { Navbar }
+}
 </script>
+<!--suppress CssUnknownTarget -->
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');s
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 form{
@@ -53,8 +58,7 @@ form input{
     color:rgb(65, 62, 62) !important;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-left: 10px;
-    border: 1px solid rgba(128, 128, 128, 0.363);
-    border-radius: 5px;
+  border-radius: 5px;
 }
 ::-webkit-input-placeholder{
     color: grey;

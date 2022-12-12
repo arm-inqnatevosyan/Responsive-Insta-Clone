@@ -1,38 +1,38 @@
 <template>
   <div class="story">
     <div id="one-block">
-      <img src="../story/insta8.jpg">
+      <img src="../story/insta8.jpg" alt="">
       <div>
         <i id="add" class="fa-solid fa-circle-plus" />
       </div>
       <p>Your Story</p>
     </div>
     <div>
-      <img src="../story/insta1.webp">
+      <img src="../story/insta1.webp" alt="">
       <p>axelbeyon</p>
     </div>
     <div>
-      <img src="../story/insta2.jpg">
+      <img src="../story/insta2.jpg" alt="">
       <p>simson</p>
     </div>
     <div>
-      <img src="../story/insta3.jpg">
+      <img src="../story/insta3.jpg" alt="">
       <p>ico.wooy</p>
     </div>
     <div>
-      <img src="../story/insta4.webp">
+      <img src="../story/insta4.webp" alt="">
       <p>louwsers</p>
     </div>
     <div>
-      <img src="../story/insta5.jpg">
+      <img src="../story/insta5.jpg" alt="">
       <p>tinanakey</p>
     </div>
     <div>
-      <img src="../story/insta6.jpg">
+      <img src="../story/insta6.jpg" alt="">
       <p>robincield</p>
     </div>
     <div>
-      <img src="../story/insta7.jpg">
+      <img src="../story/insta7.jpg" alt="">
       <p>arnauld</p>
     </div>
   </div>
@@ -49,8 +49,7 @@ export default {
     height: auto;
     display: flex;
     justify-content: space-evenly;
-    margin: 0 auto;
-    margin-top: 30px;
+  margin: 30px auto 0;
 }
 .story img{
     width: 60px;

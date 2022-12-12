@@ -2,13 +2,13 @@
   <div class="post">
     <main>
       <div class="post-div">
-        <img src="./insta6.jpg">
+        <img src="./insta6.jpg" alt="">
         <div class="global">
           <p>robincield</p>
           <div class="icons">
-            <p>300<img src="../story/heart.png"></p>
-            <img src="../story/comment.png">
-            <img src="../story/send.png">
+            <p>300<img src="../story/heart.png" alt=""></p>
+            <img src="../story/comment.png" alt="">
+            <img src="../story/send.png" alt="">
           </div>
         </div>
         <div class="p">
@@ -24,13 +24,13 @@
         </div>
       </div>
       <div class="post-div">
-        <img src="./insta7.jpg">
+        <img src="./insta7.jpg" alt="">
         <div class="global">
           <p>arnauld</p>
           <div class="icons">
-            <p>100<img src="../story/heart.png"></p>
-            <img src="../story/comment.png">
-            <img src="../story/send.png">
+            <p>100<img src="../story/heart.png" alt=""></p>
+            <img src="../story/comment.png" alt="">
+            <img src="../story/send.png" alt="">
           </div>
         </div>
         <div class="p">
@@ -41,13 +41,13 @@
       </div>
 
       <div class="post-div">
-        <img src="./insta5.jpg">
+        <img src="./insta5.jpg" alt="">
         <div class="global">
           <p>tinanakey</p>
           <div class="icons">
-            <p>400<img src="../story/heart.png"></p>
-            <img src="../story/comment.png">
-            <img src="../story/send.png">
+            <p>400<img src="../story/heart.png" alt=""></p>
+            <img src="../story/comment.png" alt="">
+            <img src="../story/send.png" alt="">
           </div>
         </div>
         <div class="p">
@@ -63,13 +63,13 @@
         </div>
       </div>
       <div class="post-div">
-        <img src="./insta4.webp">
+        <img src="./insta4.webp" alt="">
         <div class="global">
           <p>louwsers</p>
           <div class="icons">
-            <p>500<img src="../story/heart.png"></p>
-            <img src="../story/comment.png">
-            <img src="../story/send.png">
+            <p>500<img src="../story/heart.png" alt=""></p>
+            <img src="../story/comment.png" alt="">
+            <img src="../story/send.png" alt="">
           </div>
         </div>
         <div class="p3" />
@@ -106,8 +106,7 @@ main{
     width: 95%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    margin: 0 auto;
-    margin-top: 30px;
+  margin: 30px auto 0;
 }
 main .post-div{
     width:70%;

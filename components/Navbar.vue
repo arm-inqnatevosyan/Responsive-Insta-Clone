@@ -1,3 +1,4 @@
+<!--suppress CssUnknownTarget -->
 <template>
   <nav>
     <div class="logo">
@@ -9,10 +10,10 @@
       </NuxtLink>
       <i class="fa-solid fa-magnifying-glass" />
       <NuxtLink to="/">
-        <img src="./story/home.png" width="20">
+        <img src="./story/home.png" alt="">
       </NuxtLink>
-      <img src="./story/search.png" width="20">
-      <img src="./story/heart.png" width="20">
+      <img src="./story/search.png" alt="">
+      <img src="./story/heart.png" alt="">
     </div>
     <ul>
       <li>
@@ -47,8 +48,6 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin: 0 auto !important;
-    margin-left: 30px;
-    margin-right: 30px;
 }
 ul{
     display: flex;

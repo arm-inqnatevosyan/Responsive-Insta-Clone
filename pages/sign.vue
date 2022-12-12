@@ -1,18 +1,19 @@
 <!-- Arandz beqendi fronti registri ej -->
+<!--suppress CssUnknownTarget -->
 <template>
   <div>
     <Navbar />
     <div class="block">
-      <form @submit.prevent="submit">
+      <form>
         <h1>Instagram</h1>
         <p class="one">
           Зарегистрируйтесь, чтобы смотреть фото и видео ваших друзей.
         </p>
         <button>Open your Facebook</button>
         <div class="inputs">
-          <input v-model="data.name" type="text" placeholder="Name User">
-          <input v-model="data.email" type="email" placeholder="Email">
-          <input v-model="data.password" type="password" placeholder="Password">
+          <input type="text" placeholder="Name User">
+          <input type="email" placeholder="Email">
+          <input type="password" placeholder="Password">
         </div>
         <p>Люди, которые пользуются нашим сервисом,<br> могли загрузить вашу контактную информацию <br>в Instagram. Подробнее</p>
         <p>Регистрируясь, вы принимаете наши Условия,<br> Политику конфиденциальности и Политику в <br>отношении файлов cookie.</p>
@@ -39,29 +40,11 @@
   </div>
 </template>
 <script>
-import { reactive } from 'vue'
+import Navbar from '~/components/Navbar.vue'
 
 export default {
   name: 'Register',
-  setup () {
-    const data = reactive({
-      name: '',
-      email: '',
-      password: ''
-    })
-
-    const submit = async () => {
-      await fetch('http://localhost:8000/api/register', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(data)
-      })
-    }
-    return {
-      data,
-      submit
-    }
-  }
+  components: { Navbar }
 }
 </script>
 <style scoped>
@@ -125,8 +108,7 @@ export default {
             width: 380px;
             height: 40px;
             outline: none;
-            border: none;
-            border: 1px solid rgba(128, 128, 128, 0.363);
+          border: 1px solid rgba(128, 128, 128, 0.363);
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             padding-left: 10px;
             border-radius: 5px;

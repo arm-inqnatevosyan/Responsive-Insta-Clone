@@ -1,3 +1,4 @@
+/*noinspection CssUnknownTarget*/
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 *{
   margin: 0;
@@ -11,7 +12,7 @@
   margin: 0 auto;
   align-items: center;
   justify-content: space-around;
-  box-shadow: 1px 0px 6px 0px black;
+  box-shadow: 1px 0 6px 0 black;
 }
 .header div{
   width: 120px;
@@ -38,8 +39,7 @@
   display: flex;
   width: 76%;
   font-family: 'Roboto', sans-serif;
-  margin: 0 auto;
-  margin-top: 20px;
+  margin: 20px auto 0;
 }
 .block-one{
   width: 80%;
@@ -48,7 +48,7 @@
   width:100%;
   display: flex;
   font-family: 'Roboto', sans-serif;
-  margin-left: 50px;  
+  margin-left: 50px;
   flex-direction: column;
   font-size: 11px;
   margin-top: 30px;
@@ -94,7 +94,7 @@
   height: 60px;
   border-radius: 50% 50%;
   object-fit: cover;
-  
+
 }
 .main img{
   width: 700px;
@@ -151,13 +151,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 0px auto;
+  margin: 0 auto;
   color: white;
 }
 .body6 #block6 img{
   width: 600px !important;
   height:600px;
-  border-radius: 0%;
+  border-radius: 0;
 }
 .body6 #close{
   display: flex;
@@ -167,13 +167,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 0px auto;
+  margin: 0 auto;
   color: white;
 }
 .body5 #block5 img{
   width: 600px !important;
   height:600px;
-  border-radius: 0%;
+  border-radius: 0;
 }
 .body5 #close{
   display: flex;
@@ -183,13 +183,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 0px auto;
+  margin: 0 auto;
   color: white;
 }
 .body4 #block4 img{
   width: 600px !important;
   height:600px;
-  border-radius: 0%;
+  border-radius: 0;
 }
 .body4 #close{
   display: flex;
@@ -199,13 +199,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 0px auto;
+  margin: 0 auto;
   color: white;
 }
 .body3 #block3 img{
   width: 600px !important;
   height:600px;
-  border-radius: 0%;
+  border-radius: 0;
 }
 .body3 #close{
   display: flex;
@@ -215,13 +215,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 0px auto;
+  margin: 0 auto;
   color: white;
 }
 .body2 #block2 img{
   width: 600px !important;
   height:600px;
-  border-radius: 0%;
+  border-radius: 0;
 }
 .body2 #close{
   display: flex;
@@ -231,13 +231,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 0px auto;
+  margin: 0 auto;
   color: white;
 }
 .body1 #block1 img{
   width: 600px !important;
   height:600px;
-  border-radius: 0%;
+  border-radius: 0;
 }
 .body1 #close{
   display: flex;
@@ -252,7 +252,7 @@
   }
   .main .block-one{
     width: 100%;
-    display: flex !important; 
+    display: flex !important;
     flex-direction: column !important;
     justify-content: center !important;
     align-items: center;
