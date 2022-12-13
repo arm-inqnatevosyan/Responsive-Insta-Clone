@@ -14,6 +14,21 @@
       <p>Регистрируясь, вы принимаете наши Условия,</p> <p>Политику конфиденциальности и Политику в</p> <p>отношении файлов cookie.</p>
       <input type="submit" placeholder="Registration" class="submit">
     </form>
+    <footer>
+      <ul>
+        <li>Meta</li>
+        <li>Информация</li>
+        <li>Блог</li>
+        <li>Вакансии</li>
+        <li>API</li>
+        <li>Конфиденциальность</li>
+        <li>Условия</li>
+        <li>Популярные аккаунты</li>
+        <li>Хэштеги</li>
+        <li>Места</li>
+        <li>Instagram Lite</li>
+      </ul>
+    </footer>
   </div>
 </template>
 <script>
@@ -77,9 +92,31 @@ form p{
     color: rgb(63, 61, 61);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+footer{
+  width: 100%;
+  display: flex;
+}
+footer ul{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+footer ul li{
+  text-decoration: none;
+  font-family:  sans-serif;
+  color: grey !important;
+  font-size: 13px;
+}
 @media (max-width:900px){
     form{
         width: 90%;
     }
+  footer{
+    margin-top: 250px;
+  }
+  footer ul li {
+    margin-top: 30px;
+  }
 }
       </style>

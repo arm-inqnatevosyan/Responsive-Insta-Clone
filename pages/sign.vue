@@ -127,6 +127,22 @@ export default {
            font-family: sans-serif;
            border-radius: 5px;
         }
+    footer{
+      width: 100%;
+      display: flex;
+    }
+    footer ul{
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      list-style: none;
+    }
+    footer ul li{
+      text-decoration: none;
+      font-family: sans-serif;
+      color: grey !important;
+      font-size: 13px;
+    }
         @media (max-width:900px){
             img{
                 display: none;
@@ -140,21 +156,9 @@ export default {
             .block{
                 width: 85%;
             }
-        }
-        footer{
-            width: 100%;
-            display: flex;
-        }
-        footer ul{
-            width: 100%;
-            display: flex;
-            justify-content: space-around;
-            list-style: none;
-        }
-        footer ul li{
-            text-decoration: none;
-            font-family: sans-serif;
-            color: grey !important;
-            font-size: 13px;
+            footer{
+              display: flex;
+              flex-direction: column;
+            }
         }
     </style>

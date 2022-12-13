@@ -70,4 +70,26 @@ export default {
     right: -10%;
     font-size: 20px;
 }
+@media (max-width: 900px){
+  .story{
+    width: 100%;
+  }
+  .story img{
+    width: 35px;
+    height: 35px;
+    margin: 0 auto !important;
+  }
+  .story p{
+    font-size: 10px;
+  }
+}
+@media (max-width: 500px){
+  .story{
+    display: grid;
+    grid-template-columns: repeat(4,0.11fr);
+    grid-gap: 10px;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
 </style>

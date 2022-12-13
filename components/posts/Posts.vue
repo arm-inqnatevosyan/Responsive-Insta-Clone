@@ -169,5 +169,16 @@ footer ul li{
     main{
         grid-template-columns: repeat(1,1fr);
     }
+  footer{
+    margin-top: 200px;
+  }
+  footer ul{
+    display: flex;
+    flex-direction: column;
+  }
+  footer ul li {
+    margin-top: 20px;
+    border-bottom:2px solid rgba(0, 0, 0, 0.51);
+  }
 }
 </style>

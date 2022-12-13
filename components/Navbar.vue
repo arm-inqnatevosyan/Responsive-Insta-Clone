@@ -6,14 +6,14 @@
     </div>
     <div class="icons">
       <NuxtLink to="/">
-        <i class="fa-solid fa-house" />
-      </NuxtLink>
-      <i class="fa-solid fa-magnifying-glass" />
-      <NuxtLink to="/">
         <img src="./story/home.png" alt="">
       </NuxtLink>
-      <img src="./story/search.png" alt="">
-      <img src="./story/heart.png" alt="">
+      <NuxtLink to="/login">
+        <img src="./story/search.png" alt="">
+      </NuxtLink>
+      <NuxtLink to="/sign">
+        <img src="./story/heart.png" alt="">
+      </NuxtLink>
     </div>
     <ul>
       <li>
@@ -65,9 +65,6 @@ ul{
     align-items: center;
     height: 70px;
 }
-.icons i{
-    font-size: 21px;
-}
 li{
     margin-left: 30px;
 }
@@ -75,5 +72,19 @@ a{
     text-decoration: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: black;
+}
+@media (max-width: 500px){
+  nav{
+    width:95%;
+    display: flex;
+    justify-content: space-around !important;
+  }
+  nav ul a{
+    font-size: 11px;
+  }
+  .icons img{
+    width: 18px;
+    height: 18px;
+  }
 }
 </style>

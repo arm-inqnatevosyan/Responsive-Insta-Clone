@@ -3,28 +3,24 @@
     "name": "home",
     "path": "/home",
     "component": "C:\\\\Users\\\\PS\\\\Front-insta(nuxt)\\\\pages\\\\home.vue",
-    "chunkName": "pages/home",
-    "_name": "_ceb418b8"
+    "chunkName": "pages/home"
   },
   {
     "name": "login",
     "path": "/login",
     "component": "C:\\\\Users\\\\PS\\\\Front-insta(nuxt)\\\\pages\\\\login.vue",
-    "chunkName": "pages/login",
-    "_name": "_cc053118"
+    "chunkName": "pages/login"
   },
   {
     "name": "sign",
     "path": "/sign",
     "component": "C:\\\\Users\\\\PS\\\\Front-insta(nuxt)\\\\pages\\\\sign.vue",
-    "chunkName": "pages/sign",
-    "_name": "_6fa184fc"
+    "chunkName": "pages/sign"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\PS\\\\Front-insta(nuxt)\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_5f547746"
+    "chunkName": "pages/index"
   }
 ]
