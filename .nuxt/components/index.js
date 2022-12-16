@@ -1,7 +1,7 @@
 export { default as App } from '../..\\components\\App.vue'
 export { default as Navbar } from '../..\\components\\Navbar.vue'
-export { default as Posts } from '../..\\components\\posts\\Posts.vue'
 export { default as Story } from '../..\\components\\story\\Story.vue'
+export { default as Posts } from '../..\\components\\posts\\Posts.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

@@ -8,5 +8,5 @@ You can directly use them in pages and other components without the need to impo
 
 - `<App>` | `<app>` (components/App.vue)
 - `<Navbar>` | `<navbar>` (components/Navbar.vue)
-- `<Posts>` | `<posts>` (components/posts/Posts.vue)
 - `<Story>` | `<story>` (components/story/Story.vue)
+- `<Posts>` | `<posts>` (components/posts/Posts.vue)

@@ -79,12 +79,22 @@ a{
     display: flex;
     justify-content: space-around !important;
   }
+  nav ul li{
+    margin-left: 20px;
+    width: 50px;
+  }
   nav ul a{
-    font-size: 11px;
+    font-size: 14px;
   }
   .icons img{
     width: 18px;
     height: 18px;
+  }
+  .logo{
+    font-size: 13px;
+  }
+  .icons{
+    display: none;
   }
 }
 </style>

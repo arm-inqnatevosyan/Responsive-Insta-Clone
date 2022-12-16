@@ -181,4 +181,12 @@ footer ul li{
     border-bottom:2px solid rgba(0, 0, 0, 0.51);
   }
 }
+@media (max-width: 500px){
+  footer{
+    display: none;
+  }
+  main .post-div{
+    width: 100%;
+  }
+}
 </style>

@@ -5,10 +5,10 @@
   "Navbar": {
     "description": "Auto imported from components/Navbar.vue"
   },
-  "Posts": {
-    "description": "Auto imported from components/posts/Posts.vue"
-  },
   "Story": {
     "description": "Auto imported from components/story/Story.vue"
+  },
+  "Posts": {
+    "description": "Auto imported from components/posts/Posts.vue"
   }
 }

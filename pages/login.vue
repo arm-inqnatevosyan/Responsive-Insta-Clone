@@ -119,4 +119,27 @@ footer ul li{
     margin-top: 30px;
   }
 }
+@media (max-width: 500px){
+  form{
+    border: none;
+  }
+  form h1{
+    font-size: 30px;
+  }
+  form input{
+    width: 300px;
+  }
+  footer{
+    display: none;
+  }
+  form p{
+    font-size: 13px;
+  }
+}
+@media (max-width: 380px){
+  form{
+    margin-top: 0;
+  }
+}
+
       </style>
